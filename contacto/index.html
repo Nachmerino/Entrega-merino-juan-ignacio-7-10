@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+    <html lang="es"> 
+        <head>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="css/style.css">
+            <title>TESTERS</title>
+        </head> 
+    <body>
+        <div id="contenedor">
+            <header>
+                <nav class="menu-content">
+                    <ul class="menu-main">
+                    <li class="menu_item"><img src="img/logo-01-01.png" class="logo"> </li>
+                    <li class="menu_item"><a class="menu__link" href="../test/index.html">Test</a></li>
+                    <li class="menu_item"><a class="menu__link" href="../lanzamiento/index.html">Lanzamiento</a></li>
+                    <li class="menu_item"><a class="menu__link" href="../retrotest/index.html">Retrotest</a>
+                    <li class="menu_item"><a class="menu__link" href="../contacto/index.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+            ​<h2>CONTACTO</h2>
+            <form id="formContacto" method="post" action="proceso.php">
+                <h4>ENVÍENOS SU COMENTARIO</h4>
+                        <div>               
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre">
+                            <span id="nombre"></span>
+                        </div>
+                        <div>               
+                            <label for="pellido">Apellido</label>
+                            <input type="text" name="apellido" id="apellido>
+                            <span id="apellido"></span>
+                        </div>
+                        <div>
+                            <label for="email">E-mail</label>
+                                    <input type="text" name="email" id="email">
+                                    <span id="emailError"></span>
+                        </div>            
+                            <label for="hincha">Fanatico de </label>
+                        <select name="seleccion" id="hola">
+                            <option value="torino">Torino</option>
+                            <option value="ford">Ford</option>
+                            <option value="chevrolet">Chevrolet</option>
+                        </select>
+                        </div>
+                        <div>
+                            Queres recibir las noticias del mundo motor?<input type="checkbox" name="acepta" value="1" />
+                        </div>
+                        <div>
+                            <textarea rows="10" cols="40"></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar formulario"/>
+                            <input type="reset" value="Limpiar formulario"/>
+                        </div>
+            </form>
+        </div>
+
+     <footer> ig fb etc</footer>
+  </body>
+</html>

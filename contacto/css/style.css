@@ -1,0 +1,101 @@
+.menu-main,
+.menu-sub {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.body{
+  background-color: rgb(88, 228, 181)67, 160);
+}
+
+@media ( max-width: 768px){ 
+  body{ background-color: blue;
+}
+}
+@media ( max-width: 480px){ 
+  body{ background-color: rgb(255, 0, 106);
+}
+}
+
+@media ( max-width: 768px){ 
+  div{ width: 70%;
+}
+}
+   
+
+
+
+img.logo{ max-width: 200px;
+    padding: 5px;
+}
+
+
+li {
+  position: relative;
+}
+
+li > ul {
+  position: absolute;
+  display: none;
+}
+
+li:hover > ul {
+  display: block;
+  background: pink;
+  width: 100%;
+}
+
+li:hover {
+  background: rgb(235, 220, 15);
+}
+
+.menu-main {
+  display: flex;
+  background: rgb(0, 0, 0);
+}
+
+.menu_item {
+  flex: auto;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: white;
+  padding: 1.5em;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+}
+.panel-principal img{
+  width: 100%;
+  height: auto;
+}
+.img.suv{
+  max-width:  100px; ;
+}
+.img.retrotest{
+  max-width:  100px; ;
+}
+
+#contenedor{
+  display: flex;
+  flex-direction: column;
+}
+#lanzamiento{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+section img{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+#test{
+  border: solid 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
